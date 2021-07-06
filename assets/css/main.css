@@ -1,0 +1,160 @@
+body {
+	/* background: black; */
+}
+
+.navbar.fixed-top.navbar-expand-lg.navbar-dark.p-md-3 {
+	font-size: 20px;
+	background: #2828284d;
+}
+
+.nav-link.text-white:hover {
+	color: #a9163f !important;
+}
+
+.hero {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.hero-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.hero-video video {
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.hero-content {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	position: absolute;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-content h1 {
+	font-size: 80px;
+	font-weight: 600;
+	z-index: 100;
+	color: rgb(124, 119, 119);
+	margin-bottom: 30px;
+}
+
+.hero-content p {
+	font-size: 12px;
+	font-weight: 600;
+	color: rgb(129, 129, 129);
+	text-align: center;
+	z-index: 5;
+	bottom: 0;
+	position: fixed;
+}
+
+.hero-social-media {
+	z-index: 2;
+	position: fixed;
+	let: 0;
+	top: 200px;
+}
+
+.hero-social-media ul {
+	list-style: none;
+}
+
+.hero-social-media ul li a {
+	display: inline-block;
+	color: #fff;
+	/* background: #000; */
+	padding: 10px 15px;
+	text-decoration: none;
+}
+
+/* .hero-social-media .icon-facebook:hover {background:blue;} */
+
+.icons-social {
+	width: 15px;
+}
+
+.hero-carousel {
+	z-index: 3;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	bottom: 18px;
+}
+
+/* ----------------------- */
+/*        Contact         */
+.modal-content {
+	background: #969ca498;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+}
+
+.contact {
+	display: inline-block;
+	z-index: 4;
+	padding: 12px;
+	/* background: red; */
+	font-size: 23px;
+	cursor: pointer;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 80px;
+}
+
+.btn-message {
+	border: #a9163f 2px solid;
+	color: #a9163f;
+}
+
+
+/* ========== Nosotros ============== */
+.p-secction{
+    width: 40%;
+    height: 100vh;
+    background-image: url('../img/chica.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    /* position: absolute; */
+}
+
+.text-secction{
+    z-index: 5;
+    position: fixed;
+}
+
+.text-secction-info{
+    margin-top: 100px;
+}
+
+.text-secction-info h2{
+    color: #a9163f;
+    font-size: 16px;
+}
+
+.text-secction-info p{
+    font-size: 14px;
+}
+
+.text-secction-info .filosofia{
+    margin-top: 80px;
+}
