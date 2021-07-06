@@ -6,7 +6,7 @@
     </div>
 
 	<div class="hero-content">
-		<h1>Citere</h1>
+		<img class="img-citere" src="<?php echo base_url();?>assets/icons/ccitere.svg" alt="">
         <p>2021 © | Citere es una marca registrada de Citere S.C. | Derechos Reservados | Aviso de
 		privacidad</p>
 	</div>
@@ -24,21 +24,21 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active" data-bs-interval="10000">
-				<!-- <img src="<?php echo base_url();?>assets/img/facebook.svg" class="d-block w-1" alt="..." width="100px"> -->
+				<img src="<?php echo base_url();?>assets/icons/carousel-1.svg" class="d-block w-1" alt="..." width="100px">
 				<div class="carousel-caption d-none d-md-block">
 					<h5>First slide label</h5>
 					<p>Some representative placeholder content for the first slide.</p>
 				</div>
 			</div>
 			<div class="carousel-item" data-bs-interval="2000">
-				<!-- <img src="<?php echo base_url();?>assets/img/contacto.png" class="d-block w-10" alt="..." width="2px"> -->
+				<img src="<?php echo base_url();?>assets/icons/carousel-2.svg" class="d-block w-10" alt="..." width="2px">
 				<div class="carousel-caption d-none d-md-block">
 					<h5>Second slide label</h5>
 					<p>Some representative placeholder content for the second slide.</p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<!-- <img src="<?php echo base_url();?>assets/img/twitter.svg" class="d-block w-1" alt="..." width="50px"> -->
+				<img src="<?php echo base_url();?>assets/img/twitter.svg" class="d-block w-1" alt="..." width="50px">
 				<div class="carousel-caption d-none d-md-block">
 					<h5>Third slide label</h5>
 					<p>Some representative placeholder content for the third slide.</p>

@@ -18,7 +18,9 @@
 	<header>
 		<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
 			<div class="container">
-				<a class="navbar-brand" href="<?php echo base_url();?>">Logotipo</a>
+				<a class="navbar-brand" href="<?php echo base_url();?>">
+					<img class="logo" src="<?php echo base_url();?>assets/icons/citere.svg" alt="">
+				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -35,18 +37,15 @@
 								Servicios
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Gastos medicos mayores</a></li>
-								<li><a class="dropdown-item" href="#">Seguro de vida</a></li>
-								<li><a class="dropdown-item" href="#">Seguro de auto</a></li>
-								<li><a class="dropdown-item" href="#">Gastos medicos mayores empresariales</a></li>
-								<li><a class="dropdown-item" href="#">Seguro de daños</a></li>
-								<li><a class="dropdown-item" href="#">Seguro de autos empresariales</a></li>
-								<li><a class="dropdown-item" href="#">Seguro de hogar</a></li>
-								<li><a class="dropdown-item" href="#">Finanzas</a></li>
-								<li><a class="dropdown-item" href="#">Seguro educativo</a></li>
-								<li><a class="dropdown-item" href="#">Seguro para el retiro</a></li>
-								<li><a class="dropdown-item" href="#">Seguro de ahorro</a></li>
-								<li><a class="dropdown-item" href="#">Seguro de protección</a></li>
+								<li><a class="dropdown-item" href="#">Asesoria Fiscal Contable</a></li>
+								<li><a class="dropdown-item" href="#">Auditorías Fiscales y Dictámenes</a></li>
+								<li><a class="dropdown-item" href="#">Documentación Soporte</a></li>
+								<li><a class="dropdown-item" href="#">Razón de Negocios</a></li>
+								<li><a class="dropdown-item" href="#">Financiera Patrimonial</a></li>
+								<li><a class="dropdown-item" href="#">Compliance</a></li>
+								<li><a class="dropdown-item" href="#">Consultoría</a></li>
+								<li><a class="dropdown-item" href="#">Servicios Administrativos</a></li>
+								<li><a class="dropdown-item" href="#">Atención a requerimientos</a></li>
 							</ul>
 						</li>
 						<li class="nav-item">
@@ -56,7 +55,7 @@
 							<a class="nav-link text-white" href="#">FAQ'S</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="#">Noticias</a>
+							<a class="nav-link text-white" href="#">Publicaciones</a>
 						</li>
 					</ul>
 				</div>
@@ -82,7 +81,7 @@
 		
         <!-- ======= Contact ========= -->
         <img class="contact" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
-			src="<?php echo base_url();?>assets/img/contacto.png" alt="">
+			src="<?php echo base_url();?>assets/icons/contacto.svg" alt="">
 		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">

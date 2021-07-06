@@ -1,5 +1,12 @@
-body {
-	/* background: black; */
+:root{
+	/* colors */
+	--r_principal:#A9163F;
+	--a_primario:#202B52;
+	--g_primario:#7D838C;
+}
+
+.logo{
+	width: 40px;
 }
 
 .navbar.fixed-top.navbar-expand-lg.navbar-dark.p-md-3 {
@@ -8,7 +15,12 @@ body {
 }
 
 .nav-link.text-white:hover {
-	color: #a9163f !important;
+	color: var(--r_principal) !important;
+}
+
+.dropdown-item:hover {
+    color: #fff;
+    background-color: var(--a_primario);
 }
 
 .hero {
@@ -30,6 +42,10 @@ body {
 .hero-video video {
 	min-width: 100%;
 	min-height: 100%;
+}
+
+.img-citere {
+    width: 22%;
 }
 
 .hero-content {
@@ -54,8 +70,8 @@ body {
 }
 
 .hero-content p {
-	font-size: 12px;
-	font-weight: 600;
+	font-size: 13px;
+	font-weight: 700;
 	color: rgb(129, 129, 129);
 	text-align: center;
 	z-index: 5;
@@ -109,18 +125,17 @@ body {
 	display: inline-block;
 	z-index: 4;
 	padding: 12px;
-	/* background: red; */
 	font-size: 23px;
 	cursor: pointer;
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	width: 80px;
+	width: 120px;
 }
 
 .btn-message {
-	border: #a9163f 2px solid;
-	color: #a9163f;
+	border: var(--r_principal) 2px solid;
+	color: var(--r_principal);
 }
 
 
@@ -148,7 +163,7 @@ body {
 }
 
 .text-secction-info h2{
-    color: #a9163f;
+    color: var(--r_principal);
     font-size: 16px;
 }
 
