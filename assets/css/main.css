@@ -174,3 +174,26 @@
 .text-secction-info .filosofia{
     margin-top: 80px;
 }
+
+/* ========== Publicaciones =============== */
+.img_public{
+	width: 100%;
+}
+
+.flex{
+	display: flex;
+	padding: 5px;
+	flex-wrap: wrap;
+}
+
+.column{
+	flex: 25%;
+	padding: 5px;
+}
+
+.column img{
+	margin-top: 5px;
+}
+
+
+/* ============ Responsive ============== */

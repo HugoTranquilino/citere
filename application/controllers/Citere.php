@@ -11,9 +11,42 @@ class Citere extends CI_Controller {
 		$this->load->view('template',$datos_vista);
 	}
 
-	public function nosotros(){
+	public function nosotros()
+	{
 		$data = '';
 		$content = $this->load->view('nosotros_v',$data,TRUE);
+		$datos_vista = array('content' => $content);
+		$this->load->view('template',$datos_vista);
+	}
+
+	public function services()
+	{
+		$data = '';
+		$content = $this->load->view('services_v',$data,TRUE);
+		$datos_vista = array('content' => $content);
+		$this->load->view('template',$datos_vista);
+	}
+
+	public function Materialidad()
+	{
+		$data = '';
+		$content = $this->load->view('materialidad_v',$data,TRUE);
+		$datos_vista = array('content' => $content);
+		$this->load->view('template',$datos_vista);
+	}
+
+	public function Faqs()
+	{
+		$data = '';
+		$content = $this->load->view('faqs_v',$data,TRUE);
+		$datos_vista = array('content' => $content);
+		$this->load->view('template',$datos_vista);
+	}
+
+	public function Publicaciones()
+	{
+		$data = '';
+		$content = $this->load->view('publicaciones_v',$data,TRUE);
 		$datos_vista = array('content' => $content);
 		$this->load->view('template',$datos_vista);
 	}
