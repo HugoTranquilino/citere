@@ -326,6 +326,32 @@ body {
 	color: var(--g_primario);
 }
 
+/* =============== Faq's =================== */
+.faqs{
+	/* margin:6% 0px 3% 0px; */
+	margin: -11% 0px 3% 0px;
+	position: fixed;
+	z-index: 200;
+	right: 0;
+	width: 100%;
+	/* background: orange; */
+}
+
+.icons-faqs{
+	width: 6%;
+	margin: 12px 7%;
+}
+
+.icons-faqs:hover{
+	padding: 1px;
+	transition: ease-out 2s;
+}
+
+.faqs-content{
+	/* margin: 12% 0px 2% 0px; */
+	margin: 20% 0px 2% 0px;
+}
+
 /* ========== Publicaciones =============== */
 .img_public {
 	width: 100%;

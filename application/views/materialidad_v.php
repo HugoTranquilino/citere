@@ -1,7 +1,6 @@
 <!-- <div id="chart_div" style="width: 900px; height: 500px;"></div> -->
 <div class="container materialidad">
 	<img src="<?php echo base_url();?>assets/img/grafica.png" width="100%" height="100%" alt="">
-	<!-- <img src="<?php echo base_url();?>assets/img/Recurso11.png" width="100%" height="100%" alt=""> -->
 	<div class="row">
 		<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
             <!-- =========== Identificadores ============= -->
