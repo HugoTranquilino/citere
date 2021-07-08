@@ -12,6 +12,9 @@
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/main.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/fontawesome.css">
 
+	<!-- Icons -->
+	<link rel="stylesheet" href="<?php echo base_url();?>node_modules/boxicons/css/boxicons.css">
+
 </head>
 
 <body>
@@ -75,16 +78,31 @@
 		<!-- ======= Social media ======== -->
 		<div class="hero-social-media">
 			<ul>
-				<li><a class="icon-facebook" href="http://" target="_blank"><img class="icons-social"
-							src="<?php echo base_url();?>assets/img/facebook.svg" /></a></li>
-				<li><a class="icon-instagram" href="http://" target="_blank"><img class="icons-social"
-							src="<?php echo base_url();?>assets/img/instagram.svg" /></a></li>
-				<li><a class="icon-linkedin" href="http://" target="_blank"><img class="icons-social"
-							src="<?php echo base_url();?>assets/img/linkedin.svg" /></a></li>
-				<li><a class="icon-twitter" href="http://" target="_blank"><img class="icons-social"
-							src="<?php echo base_url();?>assets/img/twitter.svg" /></a></li>
-				<li><a class="siguenos" href="http://" target="_blank"><img class="icons-social"
-							src="<?php echo base_url();?>assets/img/facebook.svg" /></a>
+				<li>
+					<a class="icon-facebook" href="http://" target="_blank">
+						<i class='bx bxl-facebook'></i>
+					</a>
+				</li>
+				<li>
+					<a class="icon-instagram" href="http://" target="_blank">
+						<i class='bx bxl-instagram' ></i>
+					</a>
+				</li>
+				<li>
+					<a class="icon-linkedin" href="http://" target="_blank">
+						<i class='bx bxl-linkedin' ></i>
+					</a>
+				</li>
+				<li>
+					<a class="icon-twitter" href="http://" target="_blank">
+						<i class='bx bxl-twitter' ></i>
+					</a>
+				</li>
+				<li>
+					<a class="siguenos" href="http://" target="_blank">
+						Siguenos en
+					</a>
+				</li>
 			</ul>
 		</div>
 		<!-- End Social media -->

@@ -1,5 +1,5 @@
 <div class="p-secction">
-	<div class="text-secction">
+	<div class="container text-secction">
 		<div class="col-md-12 row">
 			<div class="col-md-6"></div>
 			<div class="col-md-6 text-secction-info">
@@ -53,6 +53,7 @@
 							país por la aplicación de soluciones innovadoras, efectivas e
 							inteligentes, en los entornos administrativo, financiero, patrimonial, fiscal y
 							corporativo.</p>
+							<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 					</div>
 				</div>
 			</div>
