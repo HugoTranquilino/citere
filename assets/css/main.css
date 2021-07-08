@@ -96,7 +96,7 @@ body {
 .hero-social-media {
 	z-index: 180;
 	position: fixed;
-	let: 0;
+	left: 0;
 	top: 200px;
 }
 
