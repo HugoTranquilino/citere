@@ -53,9 +53,16 @@
 							país por la aplicación de soluciones innovadoras, efectivas e
 							inteligentes, en los entornos administrativo, financiero, patrimonial, fiscal y
 							corporativo.</p>
-							<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 					</div>
 				</div>
+
+				<!-- ======= Chart =========== -->
+				<div class="container circulo">
+					<img class="c1" src="<?php echo base_url();?>assets/img/c1.png" alt="">
+					<img class="c2" src="<?php echo base_url();?>assets/img/c2.png" alt="">
+					<img class="c3" src="<?php echo base_url();?>assets/img/c3.png" alt="">
+					<img class="c4" src="<?php echo base_url();?>assets/img/c4.png" alt="">
+				</>
 			</div>
 		</div>
 	</div>

@@ -20,12 +20,16 @@ body {
 }
 
 .logo {
-	width: 40px;
+	width: 49px;
 }
 
 .navbar.fixed-top.navbar-expand-lg.navbar-dark.p-md-3 {
-	font-size: 20px;
+	/* font-size: 20px; */
 	background: #2828284d;
+}
+
+.p-md-3 {
+	padding: 3px !important;
 }
 
 .nav-link.text-white:hover {
@@ -112,6 +116,7 @@ body {
 	font-size: 30px;
 }
 
+/* 
 .bxl-facebook:hover {
 	color: var(--facebook);
 	padding: 3px;
@@ -139,15 +144,13 @@ body {
 	padding: 3px;
 	border-radius: 7px;
 	border: var(--linkedin) solid 1px;
-}
-
-/* 
-.hero-social-media ul li a {
-    color: #fff;
-    font-size: 24px;
-    margin: 1px 0px 1px 21px;
-    padding: 0px;
 } */
+
+
+.hero-social-media ul li a:hover {
+	color: var(--r_principal);
+	/* padding: 3px; */
+}
 
 /* .hero-social-media .icon-facebook:hover {background:blue;} */
 
@@ -174,6 +177,14 @@ body {
 
 /* ----------------------- */
 /*        Contact         */
+.modal-header {
+	border-bottom: none;
+}
+
+.modal-footer {
+	border-top: none;
+}
+
 .modal-content {
 	background: #969ca498;
 	border-radius: 20px;
@@ -190,7 +201,9 @@ body {
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	width: 120px;
+	/* width: 120px; */
+	width: 14%;
+	margin: 0px 15px 5px 0px;
 }
 
 .btn-message {
@@ -198,34 +211,34 @@ body {
 	color: var(--r_principal);
 }
 
+.btn-message:hover {
+	color: white;
+	background: var(--r_principal);
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+	outline: 0;
+	box-shadow: 0 0 0 .25rem rgba(240, 240, 240, 0.25);
+}
+
+.modal-body a {
+	text-decoration: none;
+	color: var(--r_principal);
+}
 
 /* ========== Nosotros ============== */
 .p-secction {
-	width: 100%;
-	/* height: 100vh; */
-	background-image: url('../img/p-4.jpg');
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	/* background-attachment: fixed; */
-	display: flex;
-	position: absolute;
-	/* position: fixed; */
+    /* height: 450px; */
+    /* background-image: url('../img/p-4.jpg'); */
+	background-image: url('../img/chica.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
-/* .p-secction{
-    width: 40%;
-    height: 100vh;
-    background-image: url('../img/chica.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    position: fixed;
-} */
 .text-secction {
 	z-index: 5;
-	/* position: fixed; */
 }
 
 .text-secction-info {
@@ -245,11 +258,44 @@ body {
 	margin-top: 80px;
 }
 
+/* .c1{
+	width: 100px;
+	background-image: url('../img/c1.png');
+} */
+
+/* .c1::after {
+	background-image: url("../img/c1.png");
+} */
+
+/* .accordion-button:not(.collapsed)::after {
+	background-image: url("../icons/m2.svg");
+	transform: rotate(360deg);
+	left: -4px;
+} */
+
+
+.c2 {
+    margin: 0px 0px 11px -52px;
+}
+
+.c3 {
+    margin: -75px -0px 0px 198px;
+}
+
+.c4 {
+    margin: -277px 0px 0px -16px;
+}
+
 /* =============== Services ================ */
 
 /* ============= Materialidad ================= */
 .materialidad {
 	margin: 10% 2%;
+}
+
+.materialidad img{
+	width: 100%;
+	margin: 13px 0px 21px 69px;
 }
 
 .materialidad-content {
@@ -282,7 +328,6 @@ body {
 
 .accordion-button::after {
 	background-image: url("../icons/m1.svg");
-	/* new */
 	position: absolute;
 	left: -6px;
 }
@@ -316,18 +361,18 @@ body {
 	margin: 14% 0px 0px 20%;
 }
 
-.num-info{
+.num-info {
 	color: var(--r_principal);
 	font-size: 60px;
 }
 
-.content-info p{
+.content-info p {
 	font-size: 15px;
 	color: var(--g_primario);
 }
 
 /* =============== Faq's =================== */
-.faqs{
+.faqs {
 	/* margin:6% 0px 3% 0px; */
 	margin: -11% 0px 3% 0px;
 	position: fixed;
@@ -337,19 +382,25 @@ body {
 	/* background: orange; */
 }
 
-.icons-faqs{
+.icons-faqs {
 	width: 6%;
 	margin: 12px 7%;
 }
 
-.icons-faqs:hover{
+.icons-faqs:hover {
 	padding: 1px;
 	transition: ease-out 2s;
 }
 
-.faqs-content{
+.faqs-content {
 	/* margin: 12% 0px 2% 0px; */
 	margin: 20% 0px 2% 0px;
+}
+
+.faqs-content textarea{
+	height: 346px !important;
+	border-radius: 12px;
+	text-align: justify;
 }
 
 /* ========== Publicaciones =============== */

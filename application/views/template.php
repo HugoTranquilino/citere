@@ -42,9 +42,8 @@
 								href="<?php echo base_url();?>index.php/Citere/services">Servicios</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link text-white dropdown-toggle"
-								href="#" id="navbarDropdown"
-								role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-bs-toggle="dropdown" aria-expanded="false">
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="#">Asesoria Fiscal Contable</a></li>
@@ -85,17 +84,17 @@
 				</li>
 				<li>
 					<a class="icon-instagram" href="http://" target="_blank">
-						<i class='bx bxl-instagram' ></i>
+						<i class='bx bxl-instagram'></i>
 					</a>
 				</li>
 				<li>
 					<a class="icon-linkedin" href="http://" target="_blank">
-						<i class='bx bxl-linkedin' ></i>
+						<i class='bx bxl-linkedin'></i>
 					</a>
 				</li>
 				<li>
 					<a class="icon-twitter" href="http://" target="_blank">
-						<i class='bx bxl-twitter' ></i>
+						<i class='bx bxl-twitter'></i>
 					</a>
 				</li>
 				<li>
@@ -111,30 +110,36 @@
 		<img class="contact" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
 			src="<?php echo base_url();?>assets/icons/contacto.svg" alt="">
 		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
+			<div class="modal-dialog modal-lg modal-dialog-centered">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body">
 						<form>
-							<div class="mb-3">
-								<label for="name" class="col-form-label">Nombre:</label>
-								<input type="text" class="form-control" id="name">
+							<div class="mb-3 row">
+								<label for="name" class="col-sm-2 col-form-label">Nombre:</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="name">
+								</div>
 							</div>
-							<div class="mb-3">
-								<label for="email" class="col-form-label">Dirección de e-mail:</label>
-								<input type="text" class="form-control" id="email">
+							<div class="mb-3 row">
+								<label for="email" class="col-sm-4 col-form-label">Dirección de e-mail:</label>
+								<div class="col-sm-8">
+									<input type="email" class="form-control" id="email">
+								</div>
 							</div>
-							<div class="mb-3">
-								<label for="message" class="col-form-label">Mensaje:</label>
-								<textarea class="form-control" id="message"></textarea>
+							<div class="mb-3 row">
+								<label for="message" class="col-sm-2 col-form-label">Mensaje:</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="message">
+								</div>
 							</div>
 							<div class="mb-3">
 								<div class="form-check">
 									<input class="form-check-input" type="checkbox" value="" id="privacy">
 									<label class="form-check-label" for="privacy">
-										He leído y acepto la política de privacidad.
+										He leído y acepto la <a href="#">política de privacidad</a>.
 									</label>
 								</div>
 							</div>
@@ -155,7 +160,7 @@
 	<!-- End Content -->
 
 
-	<script src="<?php echo base_url();?>assets/js/bootstrap.bundle.min.js"></script>	
+	<script src="<?php echo base_url();?>assets/js/bootstrap.bundle.min.js"></script>
 	<script src="https://www.gstatic.com/charts/loader.js"></script>
 	<script src="<?php echo base_url();?>assets/js/charts.js"></script>
 </body>

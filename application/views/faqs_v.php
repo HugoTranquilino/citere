@@ -7,7 +7,8 @@
 		<img src="<?php echo base_url();?>assets/icons/laboral-icon.svg" alt="" class="icons-faqs">
 	</div>
 	<div class="faqs-content">
-		<p>
+		<div class="form-floating">
+			<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore accusamus at illum veniam, ipsum hic
 			cupiditate facilis voluptatem. Similique maxime asperiores nobis voluptatibus molestias laudantium cumque
 			minus excepturi? Libero magnam ipsa cupiditate doloremque magni ducimus. Fugit saepe voluptas officiis autem
@@ -45,6 +46,7 @@
 			Quidem facere atque totam consequatur, deserunt nesciunt eligendi porro doloremque. Autem eos, illo porro,
 			ducimus architecto nulla quibusdam nostrum libero ratione maxime quam nam omnis corrupti quas. Expedita est
 			quibusdam maxime sint excepturi enim aut?
-		</p>
+			</textarea>
+		</div>
 	</div>
 </div>
