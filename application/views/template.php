@@ -98,18 +98,16 @@
 					</a>
 				</li>
 				<li>
-					<a class="siguenos" href="http://" target="_blank">
-						Siguenos en
-					</a>
+					<a class="siguenos" href="http://" target="_blank"> Siguenos en </a>
 				</li>
 			</ul>
 		</div>
 		<!-- End Social media -->
 
 		<!-- ======= Contact ========= -->
-		<img class="contact" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+		<img class="contact" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal_Contact"
 			src="<?php echo base_url();?>assets/icons/contacto.svg" alt="">
-		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal fade" id="Modal_Contact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog modal-lg modal-dialog-centered">
 				<div class="modal-content">
 					<div class="modal-header">
@@ -129,11 +127,12 @@
 									<input type="email" class="form-control" id="email">
 								</div>
 							</div>
-							<div class="mb-3 row">
+							<div class="mb-3">
 								<label for="message" class="col-sm-2 col-form-label">Mensaje:</label>
-								<div class="col-sm-10">
-									<input type="text" class="form-control" id="message">
-								</div>
+							</div>
+							<div class="mb-3">
+								<textarea name="message" class="form-control" id="message" cols="30"
+									rows="5"></textarea>
 							</div>
 							<div class="mb-3">
 								<div class="form-check">
@@ -161,8 +160,10 @@
 
 
 	<script src="<?php echo base_url();?>assets/js/bootstrap.bundle.min.js"></script>
-	<script src="https://www.gstatic.com/charts/loader.js"></script>
-	<script src="<?php echo base_url();?>assets/js/charts.js"></script>
+	<script src="<?php echo base_url();?>assets/js/jquery-3.6.0.min.js"></script>
+	<script src="<?php echo base_url();?>assets/js/citere.js"></script>
+	<!-- <script src="https://www.gstatic.com/charts/loader.js"></script>
+	<script src="<?php echo base_url();?>assets/js/charts.js"></script> -->
 </body>
 
 </html>
