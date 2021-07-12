@@ -46,7 +46,7 @@ class Citere extends CI_Controller {
 	public function Publicaciones()
 	{
 		$data = '';
-		$content = $this->load->view('publicaciones_v1',$data,TRUE);
+		$content = $this->load->view('publicaciones_v',$data,TRUE);
 		$datos_vista = array('content' => $content);
 		$this->load->view('template',$datos_vista);
 	}
