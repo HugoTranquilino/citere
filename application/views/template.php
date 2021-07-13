@@ -53,15 +53,15 @@
 								data-bs-toggle="dropdown" aria-expanded="false">
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="#">Asesoria Fiscal Contable</a></li>
-								<li><a class="dropdown-item" href="#">Auditorías Fiscales y Dictámenes</a></li>
-								<li><a class="dropdown-item" href="#">Documentación Soporte</a></li>
-								<li><a class="dropdown-item" href="#">Razón de Negocios</a></li>
-								<li><a class="dropdown-item" href="#">Financiera Patrimonial</a></li>
-								<li><a class="dropdown-item" href="#">Compliance</a></li>
-								<li><a class="dropdown-item" href="#">Consultoría</a></li>
-								<li><a class="dropdown-item" href="#">Servicios Administrativos</a></li>
-								<li><a class="dropdown-item" href="#">Atención a requerimientos</a></li>
+								<li><a class="dropdown-item" href="#asesoria_fiscal">Asesoria Fiscal Contable</a></li>
+								<li><a class="dropdown-item" href="#auditorias_fiscales">Auditorías Fiscales y Dictámenes</a></li>
+								<li><a class="dropdown-item" href="#doc_soporte">Documentación Soporte</a></li>
+								<li><a class="dropdown-item" href="#razon_negocios">Razón de Negocios</a></li>
+								<li><a class="dropdown-item" href="#financiera_pat">Financiera Patrimonial</a></li>
+								<li><a class="dropdown-item" href="#compliance">Compliance</a></li>
+								<li><a class="dropdown-item" href="#consultoria">Consultoría</a></li>
+								<li><a class="dropdown-item" href="#servicios_admin">Servicios Administrativos</a></li>
+								<li><a class="dropdown-item" href="#atencion_req">Atención a requerimientos</a></li>
 							</ul>
 						</li>
 						<li class="nav-item">

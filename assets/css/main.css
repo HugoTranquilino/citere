@@ -2,8 +2,8 @@
 	/* colors */
 	--r_principal: #A9163F;
 	--a_primario: #202B52;
-	/* --g_primario: #7D838C; */
 	--g_primario:#918f8f;
+	--g_pleca:#918f8fd2;
 
 	/* social media */
 	--facebook: #1b77f2;
@@ -27,8 +27,17 @@ body {
 }
 
 .navbar.fixed-top.navbar-expand-lg.navbar-dark.p-md-3 {
-	/* font-size: 20px; */
-	background: #2828284d;
+	font-size: 16px;
+	background: var(--g_pleca);
+}
+
+/* .dropdown-item{
+	background-color: var(--g_pleca);
+} */
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+	background-color: var(--g_pleca);
+
 }
 
 .p-md-3 {
