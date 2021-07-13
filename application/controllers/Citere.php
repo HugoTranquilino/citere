@@ -51,4 +51,12 @@ class Citere extends CI_Controller {
 		$this->load->view('template',$datos_vista);
 	}
 
+	public function politicas_privacidad()
+	{
+		$data = '';
+		$content = $this->load->view('politicas_pv',$data,TRUE);
+		$datos_vista = array('content' => $content);
+		$this->load->view('template',$datos_vista);
+	}
+
 }

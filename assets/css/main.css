@@ -31,10 +31,6 @@ body {
 	background: var(--g_pleca);
 }
 
-/* .dropdown-item{
-	background-color: var(--g_pleca);
-} */
-
 .navbar-expand-lg .navbar-nav .dropdown-menu{
 	background-color: var(--g_pleca);
 
@@ -333,7 +329,34 @@ body {
 	display: none;
 }
 
+/* .identificador {
+	display: none;
+    top: -50%;
+    position: relative;
+    left: 92px;
+} */
+
 /* ============= Materialidad ================= */
+
+#negocio {
+    background: var(--r_principal);
+    width: 21px;
+    height: 21px;
+    border: 0px solid;
+    border-radius: 51%;
+    position: absolute;
+    top: 209px;
+    left: 180px;
+}
+
+.n {
+    position: absolute;
+    top: 234px;
+    left: 151px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
 .materialidad {
 	margin: 10% 2%;
 }
@@ -433,8 +456,8 @@ body {
 }
 
 .icons-faqs:hover {
-	padding: 1px;
-	transition: ease-out 2s;
+	/* padding: 1px; */
+	/* transition: ease-out 2s; */
 }
 
 .faqs-content {

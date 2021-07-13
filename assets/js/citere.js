@@ -3,6 +3,7 @@ $( document ).ready(function() {
     // services
     $("#asesoria_fiscal").click(function(){
         $('#asesoria_fiscal-description').slideDown();
+        $('.identificador').slideDown();
         $('#auditorias_fiscales-description').slideUp();
         $('#doc_soporte-description').slideUp();
         $('#razon_negocios-description').slideUp();
@@ -107,6 +108,12 @@ $( document ).ready(function() {
         $('#consultoria-description').slideUp();
         $('#servicios_admin-description').slideUp();
         $('#atencion_req-description').slideDown();
+    });
+
+    // Materialidad
+
+    $("#negocio").click(function(){
+        alert("Holi!")
     });
 
     // Faq's

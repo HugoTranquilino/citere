@@ -7,6 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Citere</title>
 
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="<?php echo base_url();?>assets/icons/citere.svg">
+
 	<!-- CSS Files -->
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/main.css">
@@ -145,7 +148,7 @@
 								<div class="form-check">
 									<input class="form-check-input" type="checkbox" value="" id="privacy">
 									<label class="form-check-label" for="privacy">
-										He leído y acepto la <a href="#">política de privacidad</a>.
+										He leído y acepto la <a href="<?php echo base_url();?>index.php/Citere/politicas_privacidad" target="_blank">política de privacidad</a>.
 									</label>
 								</div>
 							</div>
