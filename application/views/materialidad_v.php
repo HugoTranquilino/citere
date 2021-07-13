@@ -1,6 +1,6 @@
 <div class="container materialidad">
 	<div class="botons">
-		<img src="<?php echo base_url();?>assets/img/grafica.png" width="100%" height="100%" alt="">
+		<center><img src="<?php echo base_url();?>assets/img/linea.svg" width="100%" height="100%" alt=""></center>
 		<button id="negocio"></button>
 		<p class="n">Negocio</p>
 	</div>
