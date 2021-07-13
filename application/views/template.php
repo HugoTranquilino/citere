@@ -28,6 +28,7 @@
 </head>
 
 <body>
+	<div class="lds-ellipsis loader" id="loader"><div></div><div></div><div></div><div></div></div>
 
 	<!-- ======= Header ======= -->
 	<header>
@@ -57,7 +58,8 @@
 							</a>
 							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li><a class="dropdown-item" href="#asesoria_fiscal">Asesoria Fiscal Contable</a></li>
-								<li><a class="dropdown-item" href="#auditorias_fiscales">Auditorías Fiscales y Dictámenes</a></li>
+								<li><a class="dropdown-item" href="#auditorias_fiscales">Auditorías Fiscales y
+										Dictámenes</a></li>
 								<li><a class="dropdown-item" href="#doc_soporte">Documentación Soporte</a></li>
 								<li><a class="dropdown-item" href="#razon_negocios">Razón de Negocios</a></li>
 								<li><a class="dropdown-item" href="#financiera_pat">Financiera Patrimonial</a></li>
@@ -148,7 +150,9 @@
 								<div class="form-check">
 									<input class="form-check-input" type="checkbox" value="" id="privacy">
 									<label class="form-check-label" for="privacy">
-										He leído y acepto la <a href="<?php echo base_url();?>index.php/Citere/politicas_privacidad" target="_blank">política de privacidad</a>.
+										He leído y acepto la <a
+											href="<?php echo base_url();?>index.php/Citere/politicas_privacidad"
+											target="_blank">política de privacidad</a>.
 									</label>
 								</div>
 							</div>
@@ -163,11 +167,12 @@
 		<!-- End Contact -->
 	</header>
 	<!-- End Header -->
+	
+	<!-- <div class="lds-facebook loader" id="loader"><div></div><div></div><div></div></div> -->
 
 	<!-- ======= Content ======= -->
 	<?php echo $content;?>
 	<!-- End Content -->
-
 
 	<script src="<?php echo base_url();?>assets/js/bootstrap.bundle.min.js"></script>
 	<script src="<?php echo base_url();?>assets/js/jquery-3.6.0.min.js"></script>
