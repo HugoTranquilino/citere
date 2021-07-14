@@ -28,7 +28,12 @@
 </head>
 
 <body>
-	<div class="lds-ellipsis loader" id="loader"><div></div><div></div><div></div><div></div></div>
+	<input type="text" id="baseurl" hidden="true" value="<?php echo base_url();?>">
+	<!-- ========= Loading page =========== -->
+	<!-- <div class="lds-ellipsis loader" id="loader"><div></div><div></div><div></div><div></div></div> -->
+	<div class="loader" id="loader">
+		<img src="<?php echo base_url();?>assets/icons/gatito.gif" alt="">
+	</div>
 
 	<!-- ======= Header ======= -->
 	<header>
@@ -168,8 +173,6 @@
 	</header>
 	<!-- End Header -->
 	
-	<!-- <div class="lds-facebook loader" id="loader"><div></div><div></div><div></div></div> -->
-
 	<!-- ======= Content ======= -->
 	<?php echo $content;?>
 	<!-- End Content -->

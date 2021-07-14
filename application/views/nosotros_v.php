@@ -3,6 +3,7 @@
 		<div class="col-md-12 row">
 			<div class="col-md-6"></div>
 			<div class="col-md-6 text-secction-info">
+				<!-- =========== Business values =========== -->
 				<div class="row">
 					<div class="col-md-6 col-sm-12 col-xs-12">
 						<h2>Proyección</h2>
@@ -55,14 +56,46 @@
 							corporativo.</p>
 					</div>
 				</div>
+				<!-- =========== End Business values =========== -->
 
-				<!-- ======= Chart =========== -->
+				<!-- ======= Graph of values =========== -->
 				<div class="container circulo">
-					<img class="c1" src="<?php echo base_url();?>assets/img/c1.png" alt="">
-					<img class="c2" src="<?php echo base_url();?>assets/img/c2.png" alt="">
-					<img class="c3" src="<?php echo base_url();?>assets/img/c3.png" alt="">
-					<img class="c4" src="<?php echo base_url();?>assets/img/c4.png" alt="">
-				</>
+					<h3>valores</h3>
+					<img class="c1" id="c1" src="<?php echo base_url();?>assets/img/nosotros/c1.png" alt="">
+					<img class="c2" id="c2" src="<?php echo base_url();?>assets/img/nosotros/c2.png" alt="">
+					<img class="c3" id="c3" src="<?php echo base_url();?>assets/img/nosotros/c3.png" alt="">
+					<img class="c4" id="c4" src="<?php echo base_url();?>assets/img/nosotros/c4.png" alt="">
+					
+					<!-- options description -->
+					<img class="f1" id="f1" src="<?php echo base_url();?>assets/img/nosotros/ff1.png" alt=""
+						style="display: none;">
+					<p id="description_1" style="display: none;">
+						Siempre cumplimos los compromisos con nuestros clientes,
+						socios y colaboradores. Valoramos por sobre todo obtener su
+						confianza por nuestra actitud
+						de servicio y ética profesional
+					</p>
+
+					<img class="f2" id="f2" src="<?php echo base_url();?>assets/img/nosotros/ff1.png" alt=""
+						style="display: none;">
+					<p id="description_2" style="display: none;">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia tenetur cupiditate odio officia consequuntur!
+					</p>
+
+					<img class="f3" id="f3" src="<?php echo base_url();?>assets/img/nosotros/ff1.png" alt=""
+						style="display: none;">
+					<p id="description_3" style="display: none;">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia tenetur cupiditate odio officia consequuntur!
+					</p>
+
+					<img class="f4" id="f4" src="<?php echo base_url();?>assets/img/nosotros/ff1.png" alt=""
+						style="display: none;">
+					<p id="description_4" style="display: none;">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia tenetur cupiditate odio officia consequuntur!
+					</p>
+					
+				</div>
+				<!-- ======= End Graph of values =========== -->
 			</div>
 		</div>
 	</div>
