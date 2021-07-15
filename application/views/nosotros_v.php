@@ -61,10 +61,10 @@
 				<!-- ======= Graph of values =========== -->
 				<div class="container circulo">
 					<h3>valores</h3>
-					<img class="c1" id="c1" src="<?php echo base_url();?>assets/img/nosotros/c1.png" alt="">
-					<img class="c2" id="c2" src="<?php echo base_url();?>assets/img/nosotros/c2.png" alt="">
-					<img class="c3" id="c3" src="<?php echo base_url();?>assets/img/nosotros/c3.png" alt="">
-					<img class="c4" id="c4" src="<?php echo base_url();?>assets/img/nosotros/c4.png" alt="">
+					<img class="c1" id="c1" src="<?php echo base_url();?>assets/img/nosotros/c-1.png" alt="">
+					<img class="c2" id="c2" src="<?php echo base_url();?>assets/img/nosotros/c-2.png" alt="">
+					<img class="c3" id="c3" src="<?php echo base_url();?>assets/img/nosotros/c-3.png" alt="">
+					<img class="c4" id="c4" src="<?php echo base_url();?>assets/img/nosotros/c-4.png" alt="">
 					
 					<!-- options description -->
 					<img class="f1" id="f1" src="<?php echo base_url();?>assets/img/nosotros/ff1.png" alt=""

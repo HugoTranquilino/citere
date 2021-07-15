@@ -1,137 +1,137 @@
 // ======== Load page ============
-window.addEventListener("load",function(){
-    document.getElementById("loader").classList.toggle("loader-end");
+window.addEventListener("load", function () {
+	document.getElementById("loader").classList.toggle("loader-end");
 });
 
 $(document).ready(function () {
-    const baseurl = $("#baseurl").val();
+	const baseurl = $("#baseurl").val();
 
-    // ========== Nosotros ==========
-    var imgMostrada_1 = `${baseurl}assets/img/nosotros/c1.png`;
-    var imgMostrada_2 = `${baseurl}assets/img/nosotros/c2.png`;
-    var imgMostrada_3 = `${baseurl}assets/img/nosotros/c3.png`;
-    var imgMostrada_4 = `${baseurl}assets/img/nosotros/c4.png`;
+	// ========== Us ==========
+	var imgMostrada_1 = `${baseurl}assets/img/nosotros/c-1.png`;
+	var imgMostrada_2 = `${baseurl}assets/img/nosotros/c-2.png`;
+	var imgMostrada_3 = `${baseurl}assets/img/nosotros/c-3.png`;
+	var imgMostrada_4 = `${baseurl}assets/img/nosotros/c-4.png`;
 
-    var imagen_1 = document.getElementById("c1");
-    var imagen_2 = document.getElementById("c2");
-    var imagen_3 = document.getElementById("c3");
-    var imagen_4 = document.getElementById("c4");
-    
-    $("#c1").click(function(){
-        if (imgMostrada_1 == `${baseurl}assets/img/nosotros/c1.png`) {
-            imagen_1.src =`${baseurl}assets/img/nosotros/cc1.png`;
-            imgMostrada_1 = `${baseurl}assets/img/nosotros/cc1.png`;
-            $('#f1').slideDown();
-            $('#description_1').slideDown();
+	var imagen_1 = document.getElementById("c1");
+	var imagen_2 = document.getElementById("c2");
+	var imagen_3 = document.getElementById("c3");
+	var imagen_4 = document.getElementById("c4");
 
-            imagen_2.src = `${baseurl}assets/img/nosotros/c2.png`;
-            imgMostrada_2 = `${baseurl}assets/img/nosotros/c2.png`;
-            $('#f2').slideUp();
-            $('#description_2').slideUp();
+	$("#c1").click(function () {
+		if (imgMostrada_1 == `${baseurl}assets/img/nosotros/c-1.png`) {
+			imagen_1.src = `${baseurl}assets/img/nosotros/cc-1.png`;
+			imgMostrada_1 = `${baseurl}assets/img/nosotros/cc-1.png`;
+			$('#f1').slideDown();
+			$('#description_1').slideDown();
 
-            imagen_3.src = `${baseurl}assets/img/nosotros/c3.png`;
-            imgMostrada_3 = `${baseurl}assets/img/nosotros/c3.png`;
-            $('#f3').slideUp();
-            $('#description_3').slideUp();
+			imagen_2.src = `${baseurl}assets/img/nosotros/c-2.png`;
+			imgMostrada_2 = `${baseurl}assets/img/nosotros/c-2.png`;
+			$('#f2').slideUp();
+			$('#description_2').slideUp();
 
-            imagen_4.src = `${baseurl}assets/img/nosotros/c4.png`;
-            imgMostrada_4 = `${baseurl}assets/img/nosotros/c4.png`;
-            $('#f4').slideUp();
-            $('#description_4').slideUp();
+			imagen_3.src = `${baseurl}assets/img/nosotros/c-3.png`;
+			imgMostrada_3 = `${baseurl}assets/img/nosotros/c-3.png`;
+			$('#f3').slideUp();
+			$('#description_3').slideUp();
 
-        }else{
-            imagen_1.src = `${baseurl}assets/img/nosotros/c1.png`;
-            imgMostrada_1 = `${baseurl}assets/img/nosotros/c1.png`;
-            $('#f1').slideUp();
-            $('#description_1').slideUp();
-        }
-    });
+			imagen_4.src = `${baseurl}assets/img/nosotros/c-4.png`;
+			imgMostrada_4 = `${baseurl}assets/img/nosotros/c-4.png`;
+			$('#f4').slideUp();
+			$('#description_4').slideUp();
 
-    $("#c2").click(function(){
-        if (imgMostrada_2 == `${baseurl}assets/img/nosotros/c2.png`) {
-            imagen_2.src =`${baseurl}assets/img/nosotros/cc2.png`;
-            imgMostrada_2 = `${baseurl}assets/img/nosotros/cc2.png`;
-            $('#f2').slideDown();
-            $('#description_2').slideDown();
+		} else {
+			imagen_1.src = `${baseurl}assets/img/nosotros/c-1.png`;
+			imgMostrada_1 = `${baseurl}assets/img/nosotros/c-1.png`;
+			$('#f1').slideUp();
+			$('#description_1').slideUp();
+		}
+	});
 
-            imagen_1.src = `${baseurl}assets/img/nosotros/c1.png`;
-            imgMostrada_1 = `${baseurl}assets/img/nosotros/c1.png`;
-            $('#f1').slideUp();
-            $('#description_1').slideUp();
+	$("#c2").click(function () {
+		if (imgMostrada_2 == `${baseurl}assets/img/nosotros/c-2.png`) {
+			imagen_2.src = `${baseurl}assets/img/nosotros/cc-2.png`;
+			imgMostrada_2 = `${baseurl}assets/img/nosotros/cc-2.png`;
+			$('#f2').slideDown();
+			$('#description_2').slideDown();
 
-            imagen_3.src = `${baseurl}assets/img/nosotros/c3.png`;
-            imgMostrada_3 = `${baseurl}assets/img/nosotros/c3.png`;
-            $('#f3').slideUp();
-            $('#description_3').slideUp();
+			imagen_1.src = `${baseurl}assets/img/nosotros/c-1.png`;
+			imgMostrada_1 = `${baseurl}assets/img/nosotros/c-1.png`;
+			$('#f1').slideUp();
+			$('#description_1').slideUp();
 
-            imagen_4.src = `${baseurl}assets/img/nosotros/c4.png`;
-            imgMostrada_4 = `${baseurl}assets/img/nosotros/c4.png`;
-            $('#f4').slideUp();
-            $('#description_4').slideUp();
+			imagen_3.src = `${baseurl}assets/img/nosotros/c-3.png`;
+			imgMostrada_3 = `${baseurl}assets/img/nosotros/c-3.png`;
+			$('#f3').slideUp();
+			$('#description_3').slideUp();
 
-        }else{
-            imagen_2.src = `${baseurl}assets/img/nosotros/c2.png`;
-            imgMostrada_2 = `${baseurl}assets/img/nosotros/c2.png`;
-        }
-    });
+			imagen_4.src = `${baseurl}assets/img/nosotros/c-4.png`;
+			imgMostrada_4 = `${baseurl}assets/img/nosotros/c-4.png`;
+			$('#f4').slideUp();
+			$('#description_4').slideUp();
 
-    $("#c3").click(function(){
-        if (imgMostrada_3 == `${baseurl}assets/img/nosotros/c3.png`) {
-            imagen_3.src =`${baseurl}assets/img/nosotros/cc3.png`;
-            imgMostrada_3 = `${baseurl}assets/img/nosotros/cc3.png`;
-            $('#f3').slideDown();
-            $('#description_3').slideDown();
+		} else {
+			imagen_2.src = `${baseurl}assets/img/nosotros/c-2.png`;
+			imgMostrada_2 = `${baseurl}assets/img/nosotros/c-2.png`;
+		}
+	});
 
-            imagen_1.src = `${baseurl}assets/img/nosotros/c1.png`;
-            imgMostrada_1 = `${baseurl}assets/img/nosotros/c1.png`;
-            $('#f1').slideUp();
-            $('#description_1').slideUp();
+	$("#c3").click(function () {
+		if (imgMostrada_3 == `${baseurl}assets/img/nosotros/c-3.png`) {
+			imagen_3.src = `${baseurl}assets/img/nosotros/cc-3.png`;
+			imgMostrada_3 = `${baseurl}assets/img/nosotros/cc-3.png`;
+			$('#f3').slideDown();
+			$('#description_3').slideDown();
 
-            imagen_2.src = `${baseurl}assets/img/nosotros/c2.png`;
-            imgMostrada_2 = `${baseurl}assets/img/nosotros/c2.png`;
-            $('#f2').slideUp();
-            $('#description_2').slideUp();
+			imagen_1.src = `${baseurl}assets/img/nosotros/c-1.png`;
+			imgMostrada_1 = `${baseurl}assets/img/nosotros/c-1.png`;
+			$('#f1').slideUp();
+			$('#description_1').slideUp();
 
-            imagen_4.src = `${baseurl}assets/img/nosotros/c4.png`;
-            imgMostrada_4 = `${baseurl}assets/img/nosotros/c4.png`;
-            $('#f4').slideUp();
-            $('#description_4').slideUp();
+			imagen_2.src = `${baseurl}assets/img/nosotros/c-2.png`;
+			imgMostrada_2 = `${baseurl}assets/img/nosotros/c-2.png`;
+			$('#f2').slideUp();
+			$('#description_2').slideUp();
 
-        }else{
-            imagen_3.src = `${baseurl}assets/img/nosotros/c3.png`;
-            imgMostrada_3 = `${baseurl}assets/img/nosotros/c3.png`;
-        }
-    });
+			imagen_4.src = `${baseurl}assets/img/nosotros/c-4.png`;
+			imgMostrada_4 = `${baseurl}assets/img/nosotros/c-4.png`;
+			$('#f4').slideUp();
+			$('#description_4').slideUp();
 
-    $("#c4").click(function(){
-        if (imgMostrada_4 == `${baseurl}assets/img/nosotros/c4.png`) {
-            imagen_4.src =`${baseurl}assets/img/nosotros/cc4.png`;
-            imgMostrada_4 = `${baseurl}assets/img/nosotros/cc4.png`;
-            $('#f4').slideDown();
-            $('#description_4').slideDown();
+		} else {
+			imagen_3.src = `${baseurl}assets/img/nosotros/c-3.png`;
+			imgMostrada_3 = `${baseurl}assets/img/nosotros/c-3.png`;
+		}
+	});
 
-            imagen_1.src = `${baseurl}assets/img/nosotros/c1.png`;
-            imgMostrada_1 = `${baseurl}assets/img/nosotros/c1.png`;
-            $('#f1').slideUp();
-            $('#description_1').slideUp();
+	$("#c4").click(function () {
+		if (imgMostrada_4 == `${baseurl}assets/img/nosotros/c-4.png`) {
+			imagen_4.src = `${baseurl}assets/img/nosotros/cc-4.png`;
+			imgMostrada_4 = `${baseurl}assets/img/nosotros/cc-4.png`;
+			$('#f4').slideDown();
+			$('#description_4').slideDown();
 
-            imagen_2.src = `${baseurl}assets/img/nosotros/c2.png`;
-            imgMostrada_2 = `${baseurl}assets/img/nosotros/c2.png`;
-            $('#f2').slideUp();
-            $('#description_2').slideUp();
+			imagen_1.src = `${baseurl}assets/img/nosotros/c-1.png`;
+			imgMostrada_1 = `${baseurl}assets/img/nosotros/c-1.png`;
+			$('#f1').slideUp();
+			$('#description_1').slideUp();
 
-            imagen_3.src = `${baseurl}assets/img/nosotros/c3.png`;
-            imgMostrada_3 = `${baseurl}assets/img/nosotros/c3.png`;
-            $('#f3').slideUp();
-            $('#description_3').slideUp();
+			imagen_2.src = `${baseurl}assets/img/nosotros/c-2.png`;
+			imgMostrada_2 = `${baseurl}assets/img/nosotros/c-2.png`;
+			$('#f2').slideUp();
+			$('#description_2').slideUp();
 
-        }else{
-            imagen_4.src = `${baseurl}assets/img/nosotros/c4.png`;
-            imgMostrada_4 = `${baseurl}assets/img/nosotros/c4.png`;
-        }
-    });
+			imagen_3.src = `${baseurl}assets/img/nosotros/c-3.png`;
+			imgMostrada_3 = `${baseurl}assets/img/nosotros/c-3.png`;
+			$('#f3').slideUp();
+			$('#description_3').slideUp();
 
-	// services
+		} else {
+			imagen_4.src = `${baseurl}assets/img/nosotros/c-4.png`;
+			imgMostrada_4 = `${baseurl}assets/img/nosotros/c-4.png`;
+		}
+	});
+
+	// ================ Services ====================
 	$("#asesoria_fiscal").click(function () {
 		$('#asesoria_fiscal-description').slideDown();
 		$('.identificador').slideDown();
@@ -241,13 +241,14 @@ $(document).ready(function () {
 		$('#atencion_req-description').slideDown();
 	});
 
-	// Materialidad
+	// ============== Materiality =================
 
 	$("#negocio").click(function () {
-		alert("Holi!")
+		
+		alert("#negocio");
 	});
 
-	// Faq's
+	// =============== Faq's =======================
 	$("#m_servicios").click(function () {
 		$('#description').slideDown();
 		$("#servicio1").slideUp();

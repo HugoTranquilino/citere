@@ -11,7 +11,7 @@
 	--linkedin: #0a66c2;
 }
 
-*{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -93,7 +93,7 @@ body {
 	}
 }
 
-.loader{
+.loader {
 	background: var(--r_principal);
 	width: 100%;
 	height: 100vh;
@@ -108,7 +108,7 @@ body {
 	transition: clip-path 0.8s ease-in-out;
 }
 
-.loader-end{
+.loader-end {
 	clip-path: circle(0.3% at 0 0);
 }
 
@@ -325,18 +325,18 @@ body {
 	margin-top: 80px;
 }
 
-.circulo{
+.circulo {
 	margin-bottom: 2%;
 }
 
 /* spinner valores */
 .container.circulo img {
-    width: 100px;
-    left: 115px;
-    position: relative;
+	width: 100px;
+	left: 115px;
+	position: relative;
 }
 
-.c1{
+.c1 {
 	/* margin: 0px 0px 0px 4px; */
 
 	/* margin: 4px 6px 2px 4px; */
@@ -345,7 +345,7 @@ body {
 
 .c2 {
 	/* margin: 0px 0px 11px -52px; */
-	
+
 	/* margin: 0px 0px 17px -23px; */
 	/* margin: 9px 5px 22px -29px; */
 	margin: 0px 6px 16px -29px;
@@ -361,24 +361,24 @@ body {
 
 .c4 {
 	/* margin: -277px 0px 0px -16px; */
-	
+
 	/* margin: 164px 0px 0px -186px; */
 	/* margin: 172px 0px 13px -186px; */
 	margin: 170px 0px 15px -189px;
 }
 
 .circulo h3 {
-    margin-top: 154px;
-    color: var(--r_principal);
-    position: absolute;
-    margin-left: 159px;
+	margin-top: 154px;
+	color: var(--r_principal);
+	position: absolute;
+	margin-left: 159px;
 }
 
 #f1 {
-    margin-top: 146px;
-    transform: rotate(270deg);
-    margin-left: -275px;
-    width: 171px;
+	margin-top: 146px;
+	transform: rotate(270deg);
+	margin-left: -275px;
+	width: 171px;
 }
 
 /* =============== Services ================= */
@@ -424,33 +424,98 @@ body {
 } */
 
 /* ============= Materialidad ================= */
+.content-identifiers {
+	text-align: center;
+	margin-bottom: 3%;
+}
 
-#negocio {
+.content-identifiers h1 {
+	font-size: 12px;
+	font-weight: 700;
+	color: var(--g_primario);
+}
+
+.content-identifiers h2 {
+	font-size: 17px;
+	font-weight: lighter;
+	color: var(--a_primario);
+}
+
+.content-identifiers span {
+	color: var(--r_principal);
+}
+
+.identificadores {
 	background: var(--r_principal);
 	width: 21px;
 	height: 21px;
 	border: 0px solid;
-	border-radius: 51%;
+	border-radius: 50%;
 	position: absolute;
-	top: 209px;
-	left: 180px;
 }
 
-.n {
+#negocio {
+	top: 209px;
+	left: 218px;
+}
+
+#socios {
+	top: 159px;
+	left: 1106px;
+}
+
+#operatividad {
+	top: 151px;
+	left: 440px;
+}
+
+#seguridad {
+	top: 220px;
+	left: 892px;
+}
+
+#estrategias {
+	top: 203px;
+}
+
+.legend {
 	position: absolute;
-	top: 234px;
-	left: 151px;
 	font-size: 13px;
 	font-weight: 400;
 }
 
+#legend-1 {
+	top: 233px;
+	left: 204px;
+}
+
+#legend-2 {
+	top: 185px;
+	left: 1095px;
+}
+
+#legend-3 {
+	top: 185px;
+	left: 396px;
+}
+
+#legend-4 {
+	top: 245px;
+	left: 837px;
+}
+
+#legend-5 {
+	top: 235px;
+	left: 589px;
+}
+
 .materialidad {
-	margin: 10% 2%;
+	margin-top: 8%;
 }
 
 .materialidad img {
 	width: 80%;
-	margin: 29px 0px 21px 69px;
+	/* margin: 29px 0px 21px 69px; */
 }
 
 .materialidad-content {
