@@ -326,45 +326,8 @@ body {
 }
 
 .circulo {
-	margin-bottom: 2%;
-}
-
-/* spinner valores */
-.container.circulo img {
-	width: 100px;
-	left: 115px;
-	position: relative;
-}
-
-.c1 {
-	/* margin: 0px 0px 0px 4px; */
-
-	/* margin: 4px 6px 2px 4px; */
-	margin: 3px 5px 4px 4px;
-}
-
-.c2 {
-	/* margin: 0px 0px 11px -52px; */
-
-	/* margin: 0px 0px 17px -23px; */
-	/* margin: 9px 5px 22px -29px; */
-	margin: 0px 6px 16px -29px;
-}
-
-.c3 {
-	/* margin: -75px -0px 0px 198px; */
-
-	/* margin: 144px 0px 0px -105px; */
-	/* margin: 141px 0px 0px -108px; */
-	margin: 137px 4px 0px -113px;
-}
-
-.c4 {
-	/* margin: -277px 0px 0px -16px; */
-
-	/* margin: 164px 0px 0px -186px; */
-	/* margin: 172px 0px 13px -186px; */
-	margin: 170px 0px 15px -189px;
+	margin-top: 4%;
+	margin-bottom: 25%;
 }
 
 .circulo h3 {
@@ -374,12 +337,71 @@ body {
 	margin-left: 159px;
 }
 
+/* spinner valores */
+.container.circulo img {
+	/* width: 100px; */
+	width: 28%;
+	/* left: 115px; */
+	left: 107px;
+	position: relative;
+}
+
+.c1 {
+	/* margin: 0px 0px 0px 4px; */
+
+	/* margin: 4px 6px 2px 4px; */
+	/* margin: 3px 5px 4px 4px; */
+
+	margin: 3px 0px 4px 4px;
+}
+
+.c2 {
+	/* margin: 0px 0px 11px -52px; */
+
+	/* margin: 0px 0px 17px -23px; */
+	/* margin: 9px 5px 22px -29px; */
+	/* margin: 0px 6px 16px -29px; */
+
+	margin: 7px -32px 26px -30px;
+}
+
+.c3 {
+	/* margin: -75px -0px 0px 198px; */
+
+	/* margin: 144px 0px 0px -105px; */
+	/* margin: 141px 0px 0px -108px; */
+	/* margin: 137px 4px 0px -113px; */
+
+	margin: 0px -38px -191px -111px;
+}
+
+.c4 {
+	/* margin: -277px 0px 0px -16px; */
+
+	/* margin: 164px 0px 0px -186px; */
+	/* margin: 172px 0px 13px -186px; */
+	/* margin: 170px 0px 15px -189px; */
+
+	margin: 0px 0px -210px -212px;
+}
+
 #f1 {
 	margin-top: 146px;
-	transform: rotate(270deg);
+	/* transform: rotate(270deg); */
 	margin-left: -275px;
 	width: 171px;
 }
+
+#description_1 {
+    font-size: 12px;
+    text-align: justify;
+    /* top: -318px; */
+    display: inline-block;
+    margin-left: 65px;
+    /* background: red; */
+    position: relative;
+}
+
 
 /* =============== Services ================= */
 .services img {

@@ -1,3 +1,9 @@
+<!-- ========= Loading page =========== -->
+	<!-- <div class="lds-ellipsis loader" id="loader"><div></div><div></div><div></div><div></div></div> -->
+	<div class="loader" id="loader">
+		<img src="<?php echo base_url();?>assets/img/Citere.gif" alt="">
+	</div>
+	
 <div class="hero">
     <div class="hero-video">
         <video onloadedmetadata="this.muted=true" autoplay loop>

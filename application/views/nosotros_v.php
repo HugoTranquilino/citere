@@ -60,14 +60,16 @@
 
 				<!-- ======= Graph of values =========== -->
 				<div class="container circulo">
-					<h3>valores</h3>
-					<img class="c1" id="c1" src="<?php echo base_url();?>assets/img/nosotros/c-1.png" alt="">
-					<img class="c2" id="c2" src="<?php echo base_url();?>assets/img/nosotros/c-2.png" alt="">
-					<img class="c3" id="c3" src="<?php echo base_url();?>assets/img/nosotros/c-3.png" alt="">
-					<img class="c4" id="c4" src="<?php echo base_url();?>assets/img/nosotros/c-4.png" alt="">
+					<div class="circulo-valores">
+						<h3>valores</h3>                                                                                                                                             
+						<img class="c1" id="c1" src="<?php echo base_url();?>assets/img/nosotros/c-1.png" alt="Valor de la Integridad">
+						<img class="c2" id="c2" src="<?php echo base_url();?>assets/img/nosotros/c-2.png" alt="Valor de la Autocritica">
+						<img class="c3" id="c3" src="<?php echo base_url();?>assets/img/nosotros/c-3.png" alt="Valor de la Disiplina">
+						<img class="c4" id="c4" src="<?php echo base_url();?>assets/img/nosotros/c-4.png" alt="Valor de la Cercania">
+					</div>
 					
 					<!-- options description -->
-					<img class="f1" id="f1" src="<?php echo base_url();?>assets/img/nosotros/ff1.png" alt=""
+					<img class="f1" id="f1" src="<?php echo base_url();?>assets/img/nosotros/item-1.png" alt="Identificador de Integridad"
 						style="display: none;">
 					<p id="description_1" style="display: none;">
 						Siempre cumplimos los compromisos con nuestros clientes,
@@ -76,19 +78,19 @@
 						de servicio y ética profesional
 					</p>
 
-					<img class="f2" id="f2" src="<?php echo base_url();?>assets/img/nosotros/ff1.png" alt=""
+					<img class="f2" id="f2" src="<?php echo base_url();?>assets/img/nosotros/ff1.png" alt="Identificador de Autocritica"
 						style="display: none;">
 					<p id="description_2" style="display: none;">
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia tenetur cupiditate odio officia consequuntur!
 					</p>
 
-					<img class="f3" id="f3" src="<?php echo base_url();?>assets/img/nosotros/ff1.png" alt=""
+					<img class="f3" id="f3" src="<?php echo base_url();?>assets/img/nosotros/ff1.png" alt="Identificador de Disiplina"
 						style="display: none;">
 					<p id="description_3" style="display: none;">
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia tenetur cupiditate odio officia consequuntur!
 					</p>
 
-					<img class="f4" id="f4" src="<?php echo base_url();?>assets/img/nosotros/ff1.png" alt=""
+					<img class="f4" id="f4" src="<?php echo base_url();?>assets/img/nosotros/ff1.png" alt="Identificador de Cercania"
 						style="display: none;">
 					<p id="description_4" style="display: none;">
 						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia tenetur cupiditate odio officia consequuntur!

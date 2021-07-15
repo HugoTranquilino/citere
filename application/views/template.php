@@ -31,9 +31,9 @@
 	<input type="text" id="baseurl" hidden="true" value="<?php echo base_url();?>">
 	<!-- ========= Loading page =========== -->
 	<!-- <div class="lds-ellipsis loader" id="loader"><div></div><div></div><div></div><div></div></div> -->
-	<div class="loader" id="loader">
-		<img src="<?php echo base_url();?>assets/icons/gatito.gif" alt="">
-	</div>
+	<!-- <div class="loader" id="loader">
+		<img src="<?php echo base_url();?>assets/img/Citere.gif" alt="">
+	</div> -->
 
 	<!-- ======= Header ======= -->
 	<header>
@@ -175,6 +175,7 @@
 	
 	<!-- ======= Content ======= -->
 	<?php echo $content;?>
+	
 	<!-- End Content -->
 
 	<script src="<?php echo base_url();?>assets/js/bootstrap.bundle.min.js"></script>

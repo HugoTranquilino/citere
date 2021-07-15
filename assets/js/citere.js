@@ -72,6 +72,8 @@ $(document).ready(function () {
 		} else {
 			imagen_2.src = `${baseurl}assets/img/nosotros/c-2.png`;
 			imgMostrada_2 = `${baseurl}assets/img/nosotros/c-2.png`;
+			$('#f2').slideUp();
+			$('#description_2').slideUp();
 		}
 	});
 
@@ -100,6 +102,8 @@ $(document).ready(function () {
 		} else {
 			imagen_3.src = `${baseurl}assets/img/nosotros/c-3.png`;
 			imgMostrada_3 = `${baseurl}assets/img/nosotros/c-3.png`;
+			$('#f3').slideUp();
+			$('#description_3').slideUp();
 		}
 	});
 
@@ -128,6 +132,8 @@ $(document).ready(function () {
 		} else {
 			imagen_4.src = `${baseurl}assets/img/nosotros/c-4.png`;
 			imgMostrada_4 = `${baseurl}assets/img/nosotros/c-4.png`;
+			$('#f4').slideUp();
+			$('#description_4').slideUp();
 		}
 	});
 
