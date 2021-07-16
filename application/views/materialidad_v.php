@@ -5,24 +5,24 @@
 		<h2>Negocio + <span>Materialidad</span> = Solidez fiscal</h2>
 		<center><img src="<?php echo base_url();?>assets/img/linea.svg" width="100%" height="100%" alt=""></center>
 		<div id="option1">
-			<button class="identificadores" id="negocio"></button>
-			<p class="legend" id="legend-1">OPERATIVIDAD EFECTIVA</p>
+			<button class="identificadores" id="operatividad"></button>
+			<p class="legend" id="legend-1">OPERATIVIDAD <br> EFECTIVA</p>
 		</div>
 		<div id="option2">
-			<button class="identificadores" id="socios"></button>
-			<p class="legend" id="legend-2">SEGURIDAD LEGAL Y FISCAL</p>
+			<button class="identificadores" id="seguridad"></button>
+			<p class="legend" id="legend-2">SEGURIDAD <br> LEGAL Y FISCAL</p>
 		</div>
 		<div id="option3">
-			<button class="identificadores" id="operatividad"></button>
-			<p class="legend" id="legend-3">SISTEMA DE VALIDACIÓN</p>
+			<button class="identificadores" id="validacionF"></button>
+			<p class="legend" id="legend-3">SISTEMA <br> DE VALIDACIÓN</p>
 		</div>
 		<div id="option4">
-			<button class="identificadores" id="seguridad"></button>
-			<p class="legend" id="legend-4">ESTRATEGIAS DE DEFENSA TRIBUTARIA</p>
+			<button class="identificadores" id="defensaT"></button>
+			<p class="legend" id="legend-4">ESTRATEGIAS DE <br> DEFENSA TRIBUTARIA</p>
 		</div>
 		<div id="option5">
-			<button class="identificadores" id="estrategias"></button>
-			<p class="legend" id="legend-5">PREVENCIÓN ANTE EL SAT</p>
+			<button class="identificadores" id="prevencion"></button>
+			<p class="legend" id="legend-5">PREVENCIÓN <br> ANTE EL SAT</p>
 		</div>
 	</div>
 	<!-- =========== End Identifiers ========== -->
@@ -30,26 +30,61 @@
 		<div class="col-md-6 col-sm-12 col-xs-12 col-lg-6">
 			<!-- =========== Identifier description ============= -->
 			<div class="content-info">
-				<div class="row" id="">
+
+				<div class="row" id="desc-operatividad" style="display:none;">
 					<div class="col-md-1">
 						<h2 class="num-info">1</h2>
 					</div>
 					<div class="col-md-11">
+						<h3>OPERATIVIDAD EFECTIVA</h3>
 						<p>Contarás con los elementos para demostrar la efectiva realización de tus operaciones de
-							ingresos
-							y egresos, con base en los criterios de la autoridad fiscal.</p>
+							ingresos y egresos con base en los criterios de la autoridad fiscal.</p>
 					</div>
 				</div>
-				<div class="row" id="">
+
+				<div class="row" id="desc-seguridad" style="display:none;">
 					<div class="col-md-1">
-						<h2 class="num-info">1</h2>
+						<h2 class="num-info">2</h2>
 					</div>
 					<div class="col-md-11">
-						<p>Contarás con los elementos para demostrar la efectiva realización de tus operaciones de
-							ingresos
-							y egresos, con base en los criterios de la autoridad fiscal.</p>
+						<h3>SEGURIDAD LEGAL Y FISCAL</h3>
+						<p>Obtendrás certeza legal y fiscal en tus operaciones con clientes y proveedores.</p>
 					</div>
 				</div>
+
+				<div class="row" id="desc-validacionF" style="display:none;">
+					<div class="col-md-1">
+						<h2 class="num-info">3</h2>
+					</div>
+					<div class="col-md-11">
+						<h3>SISTEMA DE VALIDACIÓN</h3>
+						<p>Tendrás un acompañamiento y una metodología de validación de las operaciones que realizas a
+							efecto de evitar criterios subjetivos en la valoración de tu información.</p>
+					</div>
+				</div>
+
+				<div class="row" id="desc-defensaT" style="display:none;">
+					<div class="col-md-1">
+						<h2 class="num-info">4</h2>
+					</div>
+					<div class="col-md-11">
+						<h3>ESTRATEGIAS DE DEFENSA TRIBUTARIA</h3>
+						<p>En su caso, contarás con los elementos necesarios para que un abogado experto pueda construir
+							eficientemente tus medios de defensa ante los tribunales competentes.</p>
+					</div>
+				</div>
+
+				<div class="row" id="desc-prevencion" style="display:none;">
+					<div class="col-md-1">
+						<h2 class="num-info">5</h2>
+					</div>
+					<div class="col-md-11">
+						<h3>PREVENCIÓN ANTE EL SAT</h3>
+						<p>Evitarás el pago de los impuestos derivados de la eliminación de los efectos fiscales de las
+							facturas de tus proveedores que se encuentren incluidos en el listado de empresas EFOS.</p>
+					</div>
+				</div>
+
 			</div>
 			<!-- =========== End Identifier description ========== -->
 		</div>
@@ -134,7 +169,8 @@
 								empresa incorpore cotidianamente controles y procedimientos administrativos,
 								organizacionales y de validación de sus operaciones, con el fin de operar bajo los
 								criterios de materialidad y razón de negocios del SAT. <br>
-								También te ofrecemos la <span id="legend">asesoría correctiva</span> , cuando el SAT ha vinculado a tu empresa con
+								También te ofrecemos la <span id="legend">asesoría correctiva</span> , cuando el SAT ha
+								vinculado a tu empresa con
 								un proveedor que ha sido señalado en el listado de las Empresas que Facturan Operaciones
 								Simuladas (EFOS), es decir, que hay presunción de que las operaciones son inexistentes.
 							</div>

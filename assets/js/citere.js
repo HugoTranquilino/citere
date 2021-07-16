@@ -249,10 +249,60 @@ $(document).ready(function () {
 
 	// ============== Materiality =================
 
-	$("#negocio").click(function () {
-		
-		alert("#negocio");
+	$("#operatividad").click(function () {
+		$('#desc-operatividad').show('swing');
+		$('#desc-seguridad').hide('swing');
+		$('#desc-validacionF').hide('swing');
+		$('#desc-defensaT').hide('swing');
+		$('#desc-prevencion').hide('swing');
 	});
+
+	$("#seguridad").click(function () {
+		$('#desc-operatividad').hide('swing');
+		$('#desc-seguridad').show('swing');
+		$('#desc-validacionF').hide('swing');
+		$('#desc-defensaT').hide('swing');
+		$('#desc-prevencion').hide('swing');
+	});
+
+	$("#validacionF").click(function () {
+		$('#desc-operatividad').hide('swing');
+		$('#desc-seguridad').hide('swing');
+		$('#desc-validacionF').show('swing');
+		$('#desc-defensaT').hide('swing');
+		$('#desc-prevencion').hide('swing');
+	});
+
+	$("#defensaT").click(function () {
+		$('#desc-operatividad').hide('swing');
+		$('#desc-seguridad').hide('swing');
+		$('#desc-validacionF').hide('swing');
+		$('#desc-defensaT').show('swing');
+		$('#desc-prevencion').hide('swing');
+	});
+
+	$("#prevencion").click(function () {
+		$('#desc-operatividad').hide('swing');
+		$('#desc-seguridad').hide('swing');
+		$('#desc-validacionF').hide('swing');
+		$('#desc-defensaT').hide('swing');
+		$('#desc-prevencion').show('swing');
+	});
+
+	// $('#desc-operatividad').hide('swing');
+	// $('#desc-seguridad').hide('swing');
+	// $('#desc-validacionF').hide('swing');
+	// $('#desc-defensaT').hide('swing');
+	// $('#desc-prevencion').hide('swing');
+
+	// seguridad
+	// validacionF
+	// defensaT
+	// prevencion
+	// desc-seguridad
+	// desc-validacionF
+	// desc-defensaT
+	// desc-prevencion
 
 	// =============== Faq's =======================
 	$("#m_servicios").click(function () {

@@ -94,7 +94,8 @@ body {
 }
 
 .loader {
-	background: var(--r_principal);
+	/* background: var(--r_principal); */
+	background: #B9B8B8;
 	width: 100%;
 	height: 100vh;
 	display: flex;
@@ -104,7 +105,7 @@ body {
 	top: 0;
 	left: 0;
 	z-index: 10000;
-	clip-path: circle(100.0% at 50% 0);
+	clip-path: circle(150.0% at 50% 0);
 	transition: clip-path 0.8s ease-in-out;
 }
 
@@ -455,7 +456,12 @@ body {
     left: 92px;
 } */
 
-/* ============= Materialidad ================= */
+
+/* ================================== */
+/* ========= Materialidad =========== */
+/* ================================== */
+
+/* title */
 .content-identifiers {
 	text-align: center;
 	margin-bottom: 3%;
@@ -463,13 +469,13 @@ body {
 
 .content-identifiers h1 {
 	font-size: 12px;
-	font-weight: 700;
+	font-weight: 800;
 	color: var(--g_primario);
 }
 
 .content-identifiers h2 {
 	font-size: 17px;
-	font-weight: lighter;
+	font-weight: inherit;
 	color: var(--a_primario);
 }
 
@@ -477,6 +483,7 @@ body {
 	color: var(--r_principal);
 }
 
+/* graph buttons  */
 .identificadores {
 	background: var(--r_principal);
 	width: 21px;
@@ -486,72 +493,76 @@ body {
 	position: absolute;
 }
 
-#negocio {
+/* graph buttons */
+#operatividad {
 	top: 209px;
 	left: 218px;
 }
 
-#socios {
-	top: 159px;
-	left: 1106px;
-}
-
-#operatividad {
+#seguridad {
 	top: 151px;
 	left: 440px;
 }
 
-#seguridad {
+#validacionF {
+	top: 203px;
+}
+
+#defensaT {
 	top: 220px;
 	left: 892px;
 }
 
-#estrategias {
-	top: 203px;
+#prevencion {
+	top: 159px;
+	left: 1106px;
 }
 
+/* text per graph button */
 .legend {
 	position: absolute;
 	font-size: 13px;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 #legend-1 {
-	top: 233px;
-	left: 204px;
+	top: 239px;
+	left: 181px;
 }
 
 #legend-2 {
 	top: 185px;
-	left: 1095px;
+	left: 397px;
 }
 
 #legend-3 {
-	top: 185px;
-	left: 396px;
+	top: 233px;
+	left: 644px;
 }
 
 #legend-4 {
-	top: 245px;
+	top: 247px;
 	left: 837px;
 }
 
 #legend-5 {
-	top: 235px;
-	left: 589px;
+	top: 188px;
+	left: 1072px;
 }
 
 .materialidad {
 	margin-top: 8%;
 }
 
+/* graph image */
 .materialidad img {
 	width: 80%;
-	/* margin: 29px 0px 21px 69px; */
 }
 
+/* Information Materiality */
 .materialidad-content {
 	margin-top: 6%;
+	margin-bottom: 4%;
 	padding: 2%;
 	border-radius: 12px;
 	box-shadow: 6px 7px 14px 5px rgba(0, 0, 0, 0.25);
@@ -569,6 +580,7 @@ body {
 	background: none !important;
 	border-radius: 57px;
 	margin-left: 20px;
+	font-weight: 500;
 }
 
 .accordion-button:not(.collapsed) {
@@ -609,6 +621,7 @@ body {
 	background: white;
 }
 
+/* description of the items in the graph */
 .content-info {
 	margin: 14% 0px 0px 20%;
 }
@@ -618,10 +631,16 @@ body {
 	font-size: 60px;
 }
 
+.content-info h3{
+	font-size: 20px;
+}
+
 .content-info p {
 	font-size: 15px;
 	color: var(--g_primario);
 }
+/* ========================================= */
+
 
 /* =============== Faq's =================== */
 .faqs {
