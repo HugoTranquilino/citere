@@ -24,9 +24,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 // dev
-// $config['base_url'] = (isset($_SERVER['HTTPS'])?"https://":"http://").$_SERVER['HTTP_HOST'].'/citere'.'/';
+$config['base_url'] = (isset($_SERVER['HTTPS'])?"https://":"http://").$_SERVER['HTTP_HOST'].'/citere'.'/';
 // production
-$config['base_url'] = (isset($_SERVER['HTTPS'])?"https://":"http://").$_SERVER['HTTP_HOST'].'/';
+// $config['base_url'] = (isset($_SERVER['HTTPS'])?"https://":"http://").$_SERVER['HTTP_HOST'].'/';
 /*
 |--------------------------------------------------------------------------
 | Index File
